@@ -22,7 +22,7 @@ python3 -m venv .venv
 激活后终端会显示 .venv 表示已经成功进入了独立的沙箱
 # 安装依赖, 在激活的环境下 使用pip 安装项目所需的包
 ```python
-pip install fastapi[standard]
+pip install 'fastapi[standard]'
 ```
 # 生成requirements.txt 文件
 ```python
